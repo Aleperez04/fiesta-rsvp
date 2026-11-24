@@ -1,5 +1,4 @@
 node_modules/
-dist/
 *.log
 *.tmp
 public_url.txt
