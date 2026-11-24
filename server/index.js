@@ -28,6 +28,15 @@ const PORT = process.env.PORT || 5050;
 // Middleware
 app.use(express.json());
 
+// Keep-alive / Health endpoints to prevent Render from sleeping
+app.get('/ping', (req, res) => {
+  res.status(200).send('pong');
+});
+
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ status: 'ok', uptime: Math.floor(process.uptime()), timestamp: new Date().toISOString() });
+});
+
 // CORS configuration
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
