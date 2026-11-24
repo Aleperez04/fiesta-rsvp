@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": "acc6de38-8bc2-4098-a98e-250d76a03a10",
+      "name": "Roberto Gómez",
+      "email": "organizador_1795488054001@test.com",
+      "passwordHash": "33b9c4599f2b6e8df7806775e60671679e26ad19888a2385718f2287737932d672b7a8bd6769f328f3f2f5dd95fb87a285843f310eb5234753e900456be3170c",
+      "salt": "c48304c1caddc47a54747964500639f4",
+      "createdAt": "2026-11-24T02:40:54.002Z"
+    },
+    {
+      "id": "104aa9ce-2b8c-45fa-a35b-63323088a3f2",
+      "name": "ALEJANDRO PEREZ CRUZ",
+      "email": "alexander290406@gmail.com",
+      "passwordHash": "3e43a4ae16000b0513ee3f6fc5ab2c8263e773d7cbb9b8dc5bfd94df8f98b067b39bdc4775669caf6d6566f951854ab56c864c16edc7386855c1e410d47cb52f",
+      "salt": "134461207268bac9884be5f401a111af",
+      "createdAt": "2026-11-24T02:44:00.277Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "a13d3785-1343-44ba-93b3-f1138218f380",
+      "code": "FIESTA-G5NX",
+      "userId": "acc6de38-8bc2-4098-a98e-250d76a03a10",
+      "title": "Cumpleaños #30 de Roberto",
+      "theme": "cumpleanos",
+      "description": "Fiesta con amigos y familia",
+      "eventDate": "2026-12-04T02:40:54.007Z",
+      "deadlineDate": "2026-11-29T02:40:54.007Z",
+      "location": "Salón Candiles",
+      "address": "Av. Reforma #456",
+      "mapUrl": "",
+      "createdAt": "2026-11-24T02:40:54.009Z",
+      "updatedAt": "2026-11-24T02:40:54.009Z"
+    },
+    {
+      "id": "ddb2dab0-926d-4a61-a787-8b516581007a",
+      "code": "FIESTA-83LM",
+      "userId": "acc6de38-8bc2-4098-a98e-250d76a03a10",
+      "title": "Fiesta con Fecha Límite Pasada",
+      "theme": "casual",
+      "description": "",
+      "eventDate": "",
+      "deadlineDate": "2026-11-22T02:40:54.039Z",
+      "location": "",
+      "address": "",
+      "mapUrl": "",
+      "createdAt": "2026-11-24T02:40:54.040Z",
+      "updatedAt": "2026-11-24T02:40:54.040Z"
+    },
+    {
+      "id": "af186c52-4d44-4623-9817-384b00390249",
+      "code": "FIESTA-RDXU",
+      "userId": "104aa9ce-2b8c-45fa-a35b-63323088a3f2",
+      "title": "Cumpleaños Gloria 80",
+      "theme": "cumpleanos",
+      "description": "",
+      "eventDate": "2026-12-19T20:55",
+      "deadlineDate": "2026-12-12T20:55",
+      "location": "Las azucenas salón jardin",
+      "address": "Santos Degollado #30 progreso de O.Hgo",
+      "mapUrl": "https://maps.app.goo.gl/yyZFrrkVk8ppvwyFA",
+      "createdAt": "2026-11-24T02:58:17.310Z",
+      "updatedAt": "2026-11-24T02:58:17.310Z"
+    }
+  ],
+  "rsvps": [
+    {
+      "id": "5552ead3-daa1-4b54-9128-d5bf35618a3d",
+      "eventCode": "FIESTA-G5NX",
+      "guestName": "Mariana Silva",
+      "companionsCount": 2,
+      "totalSeats": 3,
+      "note": "¡Muchísimas felicidades Roberto!",
+      "createdAt": "2026-11-24T02:40:54.030Z"
+    },
+    {
+      "id": "0c820523-0d18-4345-be77-b36295cb9407",
+      "eventCode": "FIESTA-G5NX",
+      "guestName": "Pedro Juárez",
+      "companionsCount": 0,
+      "totalSeats": 1,
+      "note": "",
+      "createdAt": "2026-11-24T02:40:54.033Z"
+    },
+    {
+      "id": "9712fce4-be26-4a17-986f-b17ec1e79fd9",
+      "eventCode": "FIESTA-G5NX",
+      "guestName": "Tía Teresa",
+      "companionsCount": 3,
+      "totalSeats": 4,
+      "note": "Confirmó por teléfono",
+      "createdAt": "2026-11-24T02:40:54.036Z"
+    },
+    {
+      "id": "2f2a3324-36d8-44f0-9068-d4310edc6f9f",
+      "eventCode": "FIESTA-RDXU",
+      "guestName": "Marlen Cruz Fragoso",
+      "companionsCount": 2,
+      "totalSeats": 3,
+      "note": "Ahí estaremos",
+      "createdAt": "2026-11-24T02:59:37.834Z"
+    }
+  ]
+}
